@@ -10,12 +10,10 @@ modalBackdrop.addEventListener("click", (e)=>{ if(e.target===modalBackdrop) moda
 
 // ✅ แก้ของรางวัลได้ตรงนี้
 const items = [
-  "เติมให้ 500เพชร ",
-  "เติมให้300เพชร",
-  "เติมให้ 1000 เพชร",
-  "เลี้ยงข้าว ",
-  "จุ๊บ 10 ที",
-  "ทำตามที่เธอบอก 1 อย่าง (อะไรก็ได้)"
+  "ให้ของขวัญ ",
+  "ซื้อเครื่องสำอางให้",
+  "ดอกไม้",
+  "เลี้ยงชาบู ",
 ];
 
 let angle = 0;
@@ -50,7 +48,7 @@ function draw(){
     ctx.rotate(a0 + slice/2);
     ctx.textAlign = "right";
     ctx.fillStyle = "rgba(60,30,40,.9)";
-    ctx.font = "bold 12px Prompt";
+    ctx.font = "bold 21px Prompt";
     ctx.fillText(items[i], r - 16, 6);
     ctx.restore();
   }

@@ -1,4 +1,4 @@
-const birthDate = new Date("2026-01-17T00:00:00");
+const birthDate = new Date("2024-11-04T00:00:00");
 
 function updateTime(){
   const now = new Date();
